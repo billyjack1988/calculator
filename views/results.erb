@@ -1,0 +1,11 @@
+<center> <h1> <%=f_name.capitalize%> <%=l_name.capitalize%> Your Reusults are </h1> <center>
+<center> <h2> <%=f_num%> <%=equation%> <%=s_num%> was your equation </h2> <center> 
+<center> <h3> <%=re_sult%> is your answer </h3> <center>
+<h4> would you like to pick again</h4>
+<form method = "post" action = "rerun">
+    <input type = "radio" name = "answer" value = "yes1"> Yes <br> 
+    <input type = "radio" name = "answer" value = "no1"> No <br> 
+    <input type = "submit" value = "submit"> 
+         <input type = "hidden" name = "f_name" value = "<%=f_name%>">
+         <input type = "hidden" name = "l_name" value = "<%=l_name%>">
+    </form> 

@@ -1,0 +1,14 @@
+<h1> <%=f_name.capitalize%> <%=l_name.capitalize%> What Math Equation Would You Like To Use? </h1>
+<form method = "post" action = "equat">
+    <input type = "radio" name = "equation" value = "+"> Addition <br> 
+    <input type = "radio" name = "equation" value = "-"> Subtraction <br> 
+    <input type = "radio" name = "equation" value = "/"> Division <br> 
+    <input type = "radio" name = "equation" value = "*"> Multiplication <br>
+    <input type = "submit" value = "submit">
+                                            <input type = "hidden" name = "f_name" value = "<%=f_name%>">
+                                            <input type = "hidden" name = "l_name" value = "<%=l_name%>">
+                                            <input type = "hidden" name = "f_num" value = "<%=f_num%>">
+                                            <input type = "hidden" name = "s_num" value = "<%=s_num%>"> 
+</form>
+
+
