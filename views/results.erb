@@ -1,10 +1,10 @@
-<center> <h1 class = "head_color font_size>" <%=f_name.capitalize%> <%=l_name.capitalize%> Your Reusults are <br>
- <%=f_num%> <%=equation%> <%=s_num%> was your equation  <br>
- <%=re_sult%> is your answer <br>  
-   would you like to pick again </h1> <center>
+ <h1 class = "head_color font_size"> <%=f_name.capitalize%> <%=l_name.capitalize%> Your Reusults are <br>
+         <%=f_num%> <%=equation%> <%=s_num%> was your equation  <br>
+                <%=re_sult%> is your answer <br>  
+                      would you like to pick again </h1> 
 <form method = "post" action = "rerun">
-   <p class = "head_color"> <input type = "radio" name = "answer" value = "yes1"> Yes <br></p>
-   <p class = "head_color"> <input type = "radio" name = "answer" value = "no1"> No <br></p>
+   <p class = "head_color font"> <input type = "radio" name = "answer" value = "yes1"> Yes <br></p>
+   <p class = "head_color font"> <input type = "radio" name = "answer" value = "no1"> No <br></p>
     <input type = "submit" value = "submit"> 
          <input type = "hidden" name = "f_name" value = "<%=f_name%>">
          <input type = "hidden" name = "l_name" value = "<%=l_name%>">
