@@ -114,7 +114,7 @@ post '/rerun' do
     if choice == "yes1"
     redirect '/first_num?f_name='+ first_name + '&l_name='+ last_name 
 elsif choice == "no1"
-    "thank have a good day"
+    "thank you have a good day"
 end
 end
 

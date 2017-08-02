@@ -1,0 +1,31 @@
+.head_color{
+color:red
+}
+.font_size{
+    font-size: 400%
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:grey;
+    float: center;
+}
+
+
+
+li a {
+    padding: 8px;
+}
+body{
+        background-image: url("https://media.giphy.com/media/NCdf9CVMSrxQs/giphy.gif")
+        ;background-repeat: no-repeat
+        ;background-size: cover
+        
+}
+
+
+
+
+ 
